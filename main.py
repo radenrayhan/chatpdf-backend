@@ -20,7 +20,7 @@ app = FastAPI()
 
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["http://localhost:3000", "http://localhost:3001","https://*.vercel.app",
+    allow_origins=["http://localhost:3000", "https://chatpdf-frontend-fawn.vercel.app","https://*.vercel.app",
         "https://*.railway.app"],
     allow_credentials=True,
     allow_methods=["*"],
